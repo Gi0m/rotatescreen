@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#portrait (left)
+
+xrandr -o normal
+xinput set-prop "Virtual core XTEST pointer" --type=float "Coordinate Transformation Matrix" 0 0 0 0 0 0 0 0 0
+xinput set-prop "SIS0457:00 0457:11ED" --type=float "Coordinate Transformation Matrix" 0 0 0 0 0 0 0 0 0
